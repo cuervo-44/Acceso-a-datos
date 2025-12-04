@@ -1,0 +1,10 @@
+<html>
+	<head>	
+	</head>
+	<body>
+		<form action="/empleado/get_empleado" method="post" th:object="${empleado}">
+			<input type="text" th:field="*{id}">
+			<button type="submit">Buscar</button>
+		</form>
+	</body>
+</html>
